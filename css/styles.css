@@ -5,6 +5,10 @@ body{
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 #top-grid{
     display: grid;
     grid-template-columns: 1fr;
@@ -21,6 +25,7 @@ body{
     border-style: solid;
     border-width: medium;
     border-color: aqua;
+    border-radius: 12px;
 }
 
 #page-header img{    
@@ -29,6 +34,9 @@ body{
 
 nav{
     background: #f7f7;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 nav ul {
@@ -52,6 +60,7 @@ nav ul li{
 
 .logo img{
     width: 29px;
+    margin-left: 10px;
 }
 
 
