@@ -23,9 +23,18 @@ body{
     border-color: aqua;
 }
 
+#page-header img{    
+    margin-top: -7px;
+}
+
+nav{
+    background: #f7f7;
+}
+
 nav ul {
-    padding: 0;
+    padding: 0px;
     margin: 0;
+    
 }
 
 nav ul li{
@@ -40,13 +49,21 @@ nav ul li{
     padding: 0;
     margin: 0;
 }
+
 .logo img{
-    width: 50px;
-    margin-top: -1em;
+    width: 29px;
 }
+
 
 .social-media-buttons{
     text-align: right;
+}
+
+.social-media-buttons img{
+    width: 29px;
+}
+.social-media-buttons img:hover{
+    opacity: 0.69;
 }
 
 .article-grid{
@@ -54,6 +71,8 @@ nav ul li{
     grid-template-columns: 1fr;
     row-gap: 5px;
 }
+
+
 
 .article-grid article{
     border-style: solid;
