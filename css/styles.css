@@ -123,7 +123,11 @@ nav ul li a:hover{
 
 /* Kontakt */
 
-#kontaktinfo{
+#kontorsbild {
+    width: 100%;
+}
+
+#kontaktinfo ul{
     list-style: none;
 }
 
