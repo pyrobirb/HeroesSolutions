@@ -1,3 +1,4 @@
+
 body{    
     width: 80%;
     margin: auto;    
@@ -25,7 +26,7 @@ a{
     font-size: 14px;
     border-style: solid;
     border-width: medium;
-    border-color: rgb(255, 0, 0);
+    border-color: rgb(255, 222, 35);
     border-radius: 12px;
     box-sizing: border-box;
 }
@@ -92,6 +93,36 @@ nav ul li a:hover{
 }
 
 
+.figur {
+    margin: 1em 0;
+}
+
+.figur img{
+    width: 100%;
+}
+
+.figur figcaption{
+    text-align: left;
+    font-size: 0.5em;
+}
+
+.inforuta {
+    color: white;    
+    padding: 1em;
+    background: rgb(69, 69, 69);
+    border-style: solid;    
+    border-width: medium;
+    border-radius: 12px;
+    border-color: rgb(255, 222, 35);
+    box-sizing: border-box;
+}
+
+.inforuta ul{
+    list-style: none;
+    padding: 0;
+}
+
+
 /* Index */
 
 .large-image img{
@@ -121,9 +152,6 @@ nav ul li a:hover{
 
 
 /* Kontakt */
-#kontorsbild {
-    width: 100%;
-}
 
 #kontaktinfo h1 {
     font-size: 2em;
@@ -134,14 +162,6 @@ nav ul li a:hover{
 #kontaktinfo h2{
     font-variant-caps: petite-caps; 
     font-family: Helvetica, Arial, sans-serif;
-}
-#kontaktinfo h3{
-    
-}
-
-#kontaktinfo ul{
-    list-style: none;
-    padding: 0;
 }
 
 .kontaktperson-grid{
@@ -157,12 +177,6 @@ nav ul li a:hover{
 }
 .kontaktperson img{
     width: 35%;
-}
-
-.figur {
-    text-align: left;
-    font-size: 0.5em;
-    margin: 0;
 }
 
 @media screen and (min-width: 750px) {
