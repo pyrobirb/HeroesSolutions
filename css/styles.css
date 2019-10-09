@@ -179,6 +179,23 @@ nav ul li a:hover{
     width: 35%;
 }
 
+/* Om oss */
+
+.nyheter-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2em;
+    column-gap: 4em;
+    text-align: left;
+}
+
+.nyheter-grid figure{
+    text-align: center;
+    margin: 0;
+}
+
+
+
 @media screen and (min-width: 750px) {
     
     nav ul li{    
@@ -195,5 +212,9 @@ nav ul li a:hover{
     .kontaktperson-grid{
         grid-template-columns: 1fr 1fr;
     }
-  }
 
+    /* Om oss */
+    .nyheter-grid{
+        grid-template-columns: 1fr 1fr;
+  }
+}
