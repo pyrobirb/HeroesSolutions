@@ -24,10 +24,7 @@ a{
     padding: 15px;
     background-color: rgb(69, 69, 69);
     font-size: 14px;
-    border-style: solid;
-    border-width: medium;
-    border-color: rgb(255, 222, 35);
-    border-radius: 12px;
+    
     box-sizing: border-box;
 }
 
