@@ -72,8 +72,15 @@ nav ul li a:hover{
 }
 
 .logo img{
-    width: 100px;
+    width: 50px;
     margin-left: -5px;
+}
+
+#textlogga{
+    float: left;
+    margin-left: 30px;
+    width: 33%;
+    padding:0;
 }
 
 
