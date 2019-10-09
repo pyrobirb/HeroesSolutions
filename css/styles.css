@@ -127,19 +127,24 @@ nav ul li a:hover{
     grid-template-columns: 1fr;
     row-gap: 5px;
     grid-gap: 10px;
+}
 
+.article-grid figure{
+    margin: 0;
+}
+.article-grid figure img{
+    width: 100%;
 }
 .article-grid article:hover{
     background: rgb(220, 220, 220);
 }
-
-
 
 .article-grid article{
     border-style: solid;
     border-width: medium;
     border-color: rgb(0, 179, 179);
     border-radius: 12px;
+    
 }
 
 
