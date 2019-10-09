@@ -24,10 +24,7 @@ a{
     padding: 15px;
     background-color: rgb(69, 69, 69);
     font-size: 14px;
-    border-style: solid;
-    border-width: medium;
-    border-color: rgb(255, 222, 35);
-    border-radius: 12px;
+    
     box-sizing: border-box;
 }
 
@@ -59,7 +56,6 @@ nav ul li{
 nav ul li a{
     
     padding: 12px;
-    border-radius: 10px;
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-family: Helvetica, Arial, sans-serif;
@@ -110,10 +106,6 @@ nav ul li a:hover{
     color: white;    
     padding: 1em;
     background: rgb(69, 69, 69);
-    border-style: solid;    
-    border-width: medium;
-    border-radius: 12px;
-    border-color: rgb(255, 222, 35);
     box-sizing: border-box;
 }
 
@@ -138,7 +130,7 @@ nav ul li a:hover{
 
 }
 .article-grid article:hover{
-    background: rgb(253, 177, 190);
+    background: rgb(220, 220, 220);
 }
 
 
@@ -179,6 +171,56 @@ nav ul li a:hover{
     width: 35%;
 }
 
+/* Om oss */
+
+.nyheter-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2em;
+    column-gap: 4em;
+    text-align: left;
+}
+
+.nyheter-grid figure{
+    text-align: center;
+    margin: 0;
+}
+
+/* Innehåll */
+
+.köpknapp {
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: rgb(232, 219, 49);
+    border-radius: 10px;
+    border-style: solid;
+    border-color:  rgb(184, 174, 47);
+}
+
+.köpknapp:hover{
+    background-color:  rgb(177, 167, 37);
+}
+
+.innehåll-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 5px;
+    grid-gap: 10px;
+
+}
+.innehåll-grid article:hover{
+    background: rgb(220, 220, 220);
+}
+
+
+
+.innehåll-grid article{
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(0, 179, 179);
+    border-radius: 12px;
+}
+
 @media screen and (min-width: 750px) {
     
     nav ul li{    
@@ -195,5 +237,9 @@ nav ul li a:hover{
     .kontaktperson-grid{
         grid-template-columns: 1fr 1fr;
     }
-  }
 
+    /* Om oss */
+    .nyheter-grid{
+        grid-template-columns: 1fr 1fr;
+  }
+}
