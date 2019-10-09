@@ -194,29 +194,6 @@ nav ul li a:hover{
     margin: 0;
 }
 
-
-
-@media screen and (min-width: 750px) {
-    
-    nav ul li{    
-        margin-left: 10%;
-    }
-    
-    /* Index */
-    .article-grid{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-
-    /* Kontakt */
-    .kontaktperson-grid{
-        grid-template-columns: 1fr 1fr;
-    }
-
-    /* Om oss */
-    .nyheter-grid{
-        grid-template-columns: 1fr 1fr;
-  }
 /* Innehåll */
 
 .köpknapp {
@@ -250,4 +227,27 @@ nav ul li a:hover{
     border-width: medium;
     border-color: rgb(0, 179, 179);
     border-radius: 12px;
+}
+
+@media screen and (min-width: 750px) {
+    
+    nav ul li{    
+        margin-left: 10%;
+    }
+    
+    /* Index */
+    .article-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+    /* Kontakt */
+    .kontaktperson-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Om oss */
+    .nyheter-grid{
+        grid-template-columns: 1fr 1fr;
+  }
 }
