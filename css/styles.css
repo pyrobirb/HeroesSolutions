@@ -14,7 +14,7 @@ a{
 #top-grid{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 50px 3fr;
+    grid-template-rows: 85px 3fr;
     text-align: center;
 }
 
@@ -23,13 +23,15 @@ a{
     grid-template-columns: 1fr 2fr 1fr;
     padding: 15px;
     background-color: rgb(69, 69, 69);
-    font-size: 14px;
-    
+    font-size: 16px;
     box-sizing: border-box;
+    text-align: center;
+    width: 100%;
 }
 
-#page-header img{    
-    margin-top: -7px;
+#page-header img{ 
+    display: inline-block;   
+    margin: 0 auto;
 }
 
 nav{
@@ -45,7 +47,7 @@ nav ul {
 }
 
 nav ul li{
-    padding: 0;
+    padding: 6px;
     margin-left: 0;
     display: inline-block;
     box-sizing: border-box;
@@ -75,11 +77,19 @@ nav ul li a:hover{
     width: 50px;
     margin-left: -5px;
 }
+#datorikon{
+    float: left;
+    margin-left: 30px;
+    width: 33%;
+    max-width: 85px;
+    min-width: 50px;
+    padding:0;
+}
 
 #textlogga{
     float: left;
     margin-left: 30px;
-    width: 33%;
+    width: 60px;
     padding:0;
 }
 
@@ -110,7 +120,7 @@ nav ul li a:hover{
 }
 
 .inforuta {
-    color: white;    
+    color: white;
     padding: 1em;
     background: rgb(69, 69, 69);
     box-sizing: border-box;
@@ -124,35 +134,34 @@ nav ul li a:hover{
 
 /* Index */
 
-.large-image img{
+.large-image{
     width: 100%;
     max-height: 500px;
+    margin-top: 1em;
 }
 
-.article-grid{
+.image-grid{
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 5px;
     grid-gap: 10px;
+    justify-items: center;
 }
 
-.article-grid figure{
+.image-grid {
     margin: 0;
 }
-.article-grid figure img{
+.image-grid a{
+    margin: 0 auto;
+    padding: 0;
+}
+.image-grid img{
     width: 100%;
 }
-.article-grid article:hover{
-    background: rgb(220, 220, 220);
+.image-grid img:hover{
+    opacity: 0.95;
 }
 
-.article-grid article{
-    border-style: solid;
-    border-width: medium;
-    border-color: rgb(0, 179, 179);
-    border-radius: 12px;
-    
-}
 
 
 /* Kontakt */
@@ -238,9 +247,13 @@ nav ul li a:hover{
     nav ul li{    
         margin-left: 10%;
     }
+
+    #textlogga{
+        width: 85px;
+    }
     
     /* Index */
-    .article-grid{
+    .image-grid{
         grid-template-columns: 1fr 1fr 1fr;
     }
 
