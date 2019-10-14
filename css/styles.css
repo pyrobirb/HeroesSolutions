@@ -23,7 +23,7 @@ a{
     grid-template-columns: 1fr 2fr 1fr;
     padding: 15px;
     background-color: rgb(69, 69, 69);
-    font-size: 16px;
+    font-size: 14px;
     box-sizing: border-box;
     text-align: center;
     width: 100%;
@@ -119,17 +119,7 @@ nav ul li a:hover{
     font-size: 0.5em;
 }
 
-.inforuta {
-    color: white;
-    padding: 1em;
-    background: rgb(69, 69, 69);
-    box-sizing: border-box;
-}
 
-.inforuta ul{
-    list-style: none;
-    padding: 0;
-}
 
 
 /* Index */
@@ -177,6 +167,22 @@ nav ul li a:hover{
     font-family: Helvetica, Arial, sans-serif;
 }
 
+.inforuta {
+    color: white;
+    padding: 1em;
+    background: rgb(69, 69, 69);
+    box-sizing: border-box;
+}
+
+.inforuta ul{
+    list-style: none;
+    padding: 0;
+}
+.inforuta ul li a{
+    color: rgb(20, 160, 216);
+    font-weight: bold;
+}
+
 .kontaktperson-grid{
     display: grid;
     grid-template-columns: 1fr;
@@ -191,8 +197,16 @@ nav ul li a:hover{
 .kontaktperson img{
     width: 35%;
 }
-
+.kontaktperson a{
+    color: rgb(18, 140, 189);
+    font-weight: bold;
+    font-style: normal;
+}
 /* Om oss */
+
+#om-oss-ruta{
+    margin-bottom: 2em;
+}
 
 .nyheter-grid{
     display: grid;
