@@ -118,7 +118,6 @@ a{
 
 .large-image{
     width: 100%;
-    max-height: 5000px;
     margin-top: 1em;
 }
 
@@ -141,7 +140,6 @@ a{
 .image-grid img:hover{
     opacity: 0.95;
 }
-
 
 
 .nyheter-grid{
@@ -202,7 +200,7 @@ a{
     padding: 0;
 }
 .inforuta ul li a{
-    color: rgb(20, 160, 216);
+    color: rgb(18, 140, 189);
     font-weight: bold;
 }
 
@@ -233,18 +231,7 @@ a{
 
 /* Innehåll */
 
-.köpknapp {
-    box-sizing: border-box;
-    padding: 20px;
-    background-color: rgb(232, 219, 49);
-    border-radius: 10px;
-    border-style: solid;
-    border-color:  rgb(184, 174, 47);
-}
 
-.köpknapp:hover{
-    background-color:  rgb(177, 167, 37);
-}
 
 .innehåll-grid{
     display: grid;
@@ -260,9 +247,7 @@ a{
 
 
 .innehåll-grid article{
-    border-style: solid;
     border-width: medium;
-    border-color: rgb(0, 179, 179);
     border-radius: 12px;
 }
 
