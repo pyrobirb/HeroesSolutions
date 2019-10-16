@@ -51,7 +51,7 @@ a{
     color: white;
     font-family: Helvetica, Arial, sans-serif;
     font-variant: petite-caps;
-    padding: 0px;
+    padding: 0 10px 0 10px;
 
 }
 #nav-grid a:hover{
