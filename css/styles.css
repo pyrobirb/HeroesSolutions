@@ -2,7 +2,7 @@
 body{    
     width: 80%;
     margin: auto;    
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     background: rgb(231, 231, 231);
     padding: 0;    
 }
@@ -146,18 +146,17 @@ a{
 
 /* Footer */
 .fotnot{
-    margin-top: 2em;
-    
-    
+    margin-top: 2em;    
     padding-top: 1px;
     padding-bottom: 1px;
     background: rgb(69, 69, 69);
     color:white;
+    height:150px;
 }
 .fotnot p{
     padding-left: 10px;
     font-family: Helvetica, sans-serif, Arial;
-    font-style: petite-caps;
+    font-variant-caps: petite-caps;
 }
 
 /* Kontakt */
