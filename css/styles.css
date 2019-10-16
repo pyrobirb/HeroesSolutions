@@ -2,7 +2,7 @@
 body{    
     width: 80%;
     margin: auto;    
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     background: rgb(231, 231, 231);
     padding: 0;    
 }
@@ -144,7 +144,21 @@ a{
     opacity: 0.95;
 }
 
-
+/* Footer */
+.fotnot{
+    margin-top: 2em;
+    
+    
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background: rgb(69, 69, 69);
+    color:white;
+}
+.fotnot p{
+    padding-left: 10px;
+    font-family: Helvetica, sans-serif, Arial;
+    font-style: petite-caps;
+}
 
 /* Kontakt */
 
@@ -247,6 +261,9 @@ a{
     border-color: rgb(0, 179, 179);
     border-radius: 12px;
 }
+
+
+
 
 @media screen and (min-width: 750px) {
     
