@@ -175,6 +175,15 @@ a{
     color: rgb(172, 172, 172)
 }
 
+.fotnot a {
+    text-decoration: none;
+    font-size: 0.7em;
+    font-family: Helvetica, sans-serif, Arial;
+    color: white;
+
+
+}
+
 /* Kontakt */
 
 #kontaktinfo h1 {
