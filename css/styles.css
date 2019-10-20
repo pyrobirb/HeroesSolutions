@@ -1,10 +1,10 @@
 
-body{    
-    width: 80%;
+body{
+    width: 100%;
     margin: auto;    
     margin-bottom: 0px;
     background: rgb(231, 231, 231);
-    padding: 0;    
+    padding: 0;
 }
 
 a{
@@ -99,7 +99,8 @@ a{
 
 
 .figur {
-    margin: 1em 0;
+    margin: 0 0;
+    padding: 0;
 }
 
 .figur img{
@@ -118,17 +119,18 @@ a{
 
 .large-image{
     width: 100%;
-    margin-top: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    
 }
+
 
 .image-grid{
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 5px;
     grid-gap: 10px;
-}
-.image-grid {
-    margin: 0;
+    margin-top: 0;
 }
 .image-grid a{
     margin: 0 0;
@@ -157,7 +159,7 @@ a{
 
 /* Footer */
 .fotnot{
-    margin-top: 2em;    
+    margin-top: 1em;    
     padding-top: 1px;
     padding-bottom: 1px;
     background: rgb(69, 69, 69);
@@ -199,9 +201,10 @@ a{
 
 .inforuta {
     color: white;
-    padding: 1em;
+    padding: 1.0em;
     background: rgb(69, 69, 69);
     box-sizing: border-box;
+    
 }
 
 .inforuta ul{
@@ -238,6 +241,12 @@ a{
     margin-bottom: 2em;
 }
 
+/* Tjänster */
+#tjänster-ruta{
+    margin-bottom: 2em;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 /* Innehåll */
 
 
@@ -253,8 +262,6 @@ a{
     background: rgb(220, 220, 220);
 }
 
-
-
 .innehåll-grid article{
     border-width: medium;
     border-radius: 12px;
@@ -263,7 +270,10 @@ a{
 
 
 @media screen and (min-width: 750px) {
-    
+    body{
+        width:80%;
+    }
+
     #nav-grid{
         grid-template-columns: 1fr 1fr 1fr;
         justify-items: space-evenly;
@@ -294,9 +304,10 @@ a{
     .nyheter-grid{
         grid-template-columns: 1fr 1fr;
   }
-    /* Om oss */
+
+    /* tjänster */
   .innehåll-grid{
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
  }
 }
 
