@@ -112,7 +112,34 @@ a{
     font-size: 0.5em;
 }
 
+/* Footer */
+.fotnot{
+    margin-top: 1em;    
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background: rgb(69, 69, 69);
+    color:white;
+    height:150px;
+}
+.fotnot p{
+    padding-left: 10px;
+    font-family: Helvetica, sans-serif, Arial;
+    font-variant-caps: petite-caps;
+}
 
+#fotnottext{
+    font-size: 0.8em;
+    color: rgb(172, 172, 172)
+}
+
+.fotnot a {
+    text-decoration: none;
+    font-size: 0.7em;
+    font-family: Helvetica, sans-serif, Arial;
+    color: white;
+
+
+}
 
 
 /* Index */
@@ -157,34 +184,6 @@ a{
     margin: 0;
 }
 
-/* Footer */
-.fotnot{
-    margin-top: 1em;    
-    padding-top: 1px;
-    padding-bottom: 1px;
-    background: rgb(69, 69, 69);
-    color:white;
-    height:150px;
-}
-.fotnot p{
-    padding-left: 10px;
-    font-family: Helvetica, sans-serif, Arial;
-    font-variant-caps: petite-caps;
-}
-
-#fotnottext{
-    font-size: 0.8em;
-    color: rgb(172, 172, 172)
-}
-
-.fotnot a {
-    text-decoration: none;
-    font-size: 0.7em;
-    font-family: Helvetica, sans-serif, Arial;
-    color: white;
-
-
-}
 
 /* Kontakt */
 
@@ -245,7 +244,9 @@ a{
 #tjänster-ruta{
     margin-bottom: 2em;
     font-family: Helvetica, Arial, sans-serif;
+    font-size:1em;
 }
+
 
 /* Innehåll */
 
@@ -314,5 +315,9 @@ a{
 @media screen and (max-width: 330px){
     #top-grid{
         grid-template-rows: 110px 3fr;
+    }
+
+    .fotnot{
+        height: 200px;
     }
 }
