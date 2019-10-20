@@ -294,6 +294,10 @@ a{
     .nyheter-grid{
         grid-template-columns: 1fr 1fr;
   }
+    /* Om oss */
+  .innehåll-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+ }
 }
 
 @media screen and (max-width: 330px){
