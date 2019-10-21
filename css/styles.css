@@ -10,6 +10,7 @@ body{
 a{
     text-decoration: none;
 }
+  
 
 #top-grid{
     display: grid;
@@ -57,7 +58,6 @@ a{
 #nav-grid a:hover{
     background: rgb(49, 49, 49);
 }
-
 
 .logo{
     text-align: left;
@@ -116,10 +116,9 @@ a{
 .fotnot{
     margin-top: 1em;    
     padding-top: 1px;
-    padding-bottom: 1px;
+    padding-bottom: 50px;
     background: rgb(69, 69, 69);
     color:white;
-    height:150px;
 }
 .fotnot p{
     padding-left: 10px;
@@ -139,6 +138,9 @@ a{
     color: white;
 
 
+}
+#telnrfotnot {
+    margin-left: 2em;
 }
 
 
@@ -188,7 +190,6 @@ a{
 /* Kontakt */
 
 #kontaktinfo h1 {
-    font-size: 2em;
     font-family: Helvetica, Arial, sans-serif;
     font-variant-caps: petite-caps; 
 
@@ -204,6 +205,10 @@ a{
     background: rgb(69, 69, 69);
     box-sizing: border-box;
     
+}
+.inforuta h1{
+    font-family: Helvetica, Arial, sans-serif;
+    font-variant-caps:petite-caps;
 }
 
 .inforuta ul{
@@ -234,23 +239,25 @@ a{
     font-weight: bold;
     font-style: normal;
 }
+
+
 /* Om oss */
 
 #om-oss-ruta{
     margin-bottom: 2em;
+
 }
 
+
 /* Tjänster */
+
 #tjänster-ruta{
     margin-bottom: 2em;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size:1em;
+
 }
 
 
 /* Innehåll */
-
-
 
 .innehåll-grid{
     display: grid;
